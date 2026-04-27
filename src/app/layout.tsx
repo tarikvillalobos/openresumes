@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cormorant_Garamond, Outfit } from "next/font/google";
+import { SiteChrome } from "@/components/site-chrome";
 import "./globals.css";
 
 const outfit = Outfit({
@@ -30,8 +31,11 @@ export default function RootLayout({
     <html
       lang="pt-BR"
       className={`${outfit.variable} ${cormorant.variable} h-full antialiased`}
+      data-scroll-behavior="smooth"
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        <SiteChrome>{children}</SiteChrome>
+      </body>
     </html>
   );
 }
