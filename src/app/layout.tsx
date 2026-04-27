@@ -18,7 +18,7 @@ const cormorant = Cormorant_Garamond({
 export const metadata: Metadata = {
   title: "OpenResumes | Crie curriculos online",
   description:
-    "Crie curriculos profissionais online com modelos elegantes, otimizacao para ATS e suporte de IA.",
+    "Crie curriculos profissionais online com modelos elegantes, editor guiado, otimizacao para ATS e exportacao em PDF.",
 };
 
 export default function RootLayout({

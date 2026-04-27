@@ -30,10 +30,10 @@ const steps = [
   },
   {
     number: "02",
-    icon: "✦",
-    title: "IA otimiza tudo",
+    icon: "✓",
+    title: "Organize com clareza",
     description:
-      "Nossa IA reescreve suas conquistas com linguagem de impacto e otimiza para sistemas ATS automaticamente.",
+      "Escolha um modelo, revise cada seção e deixe o currículo pronto para leitura por recrutadores e sistemas ATS.",
   },
   {
     number: "03",
@@ -46,10 +46,10 @@ const steps = [
 
 const features = [
   {
-    icon: "IA",
-    title: "Reescrita por IA",
+    icon: "TXT",
+    title: "Editor guiado",
     description:
-      "Transforma descrições simples em bullets de impacto com métricas e linguagem profissional.",
+      "Campos organizados ajudam você a escrever experiências, formação e habilidades sem perder o contexto.",
   },
   {
     icon: "ATS",
@@ -108,7 +108,7 @@ const testimonials = [
   },
   {
     quote:
-      "A IA transformou minhas experiências em bullets com números reais. Parecia que eu tinha um redator profissional.",
+      "Consegui reorganizar minhas experiências e destacar melhor os resultados. O currículo ficou direto e profissional.",
     name: "Rafael Mendes",
     role: "Dev Backend · Contratado na Loft",
     avatar: "R",
@@ -218,7 +218,7 @@ export default function Home() {
             <div className="hero-content">
               <div className="hero-badge">
                 <span className="hero-badge-dot" />
-                Novo · Powered by IA
+                Novo · Currículos online
               </div>
 
               <h1>
@@ -230,9 +230,9 @@ export default function Home() {
               </h1>
 
               <p className="hero-desc">
-                Crie currículos profissionais que se destacam. Nossa IA analisa
-                sua experiência e monta um currículo personalizado para cada vaga
-                que você quiser.
+                Crie currículos profissionais que se destacam com modelos
+                elegantes, edição guiada e exportação pronta para cada vaga que
+                você quiser.
               </p>
 
               <div className="hero-actions">
@@ -272,8 +272,8 @@ export default function Home() {
                 onMouseLeave={handleResumeMouseLeave}
               >
                 <div className="float-badge b1">
-                  <span className="badge-icon">✦</span>
-                  IA otimizando...
+                  <span className="badge-icon">✓</span>
+                  Revisão em andamento
                 </div>
 
                 <div className="float-badge b3">ATS-Friendly</div>
@@ -375,8 +375,8 @@ export default function Home() {
               <em>currículo perfeito</em>
             </h2>
             <p className="section-sub">
-              Sem complicação. Nossa IA cuida de toda a formatação e otimização
-              por você.
+              Sem complicação. Você preenche as informações, escolhe um modelo e
+              mantém tudo pronto para exportar.
             </p>
           </div>
 
