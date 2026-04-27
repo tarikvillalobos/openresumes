@@ -36,10 +36,10 @@ export default function CriarCurriculoPage() {
         </div>
 
         <div className="page-actions reveal">
-          <Link className="btn-hero" href="/modelos">
+          <Link className="btn-hero" href="/templates">
             Escolher modelo
           </Link>
-          <Link className="btn-ghost-light" href="/depoimentos">
+          <Link className="btn-ghost-light" href="/testimonials">
             Ver depoimentos
           </Link>
         </div>

@@ -46,10 +46,10 @@ export function SiteChrome({ children }: { children: ReactNode }) {
         </ul>
 
         <div className="nav-right">
-          <Link className="btn-nav-ghost" href="/depoimentos">
+          <Link className="btn-nav-ghost" href="/testimonials">
             Entrar
           </Link>
-          <Link className="btn-nav-primary" href="/criar-curriculo">
+          <Link className="btn-nav-primary" href="/create-resume">
             Começar grátis →
           </Link>
         </div>

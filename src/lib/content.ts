@@ -2,10 +2,10 @@ import type { CSSProperties } from "react";
 
 export const navItems = [
   { label: "Início", href: "/" },
-  { label: "Depoimentos", href: "/depoimentos" },
-  { label: "Comunidade", href: "/comunidade" },
-  { label: "Criar Currículo", href: "/criar-curriculo" },
-  { label: "Modelos", href: "/modelos" },
+  { label: "Depoimentos", href: "/testimonials" },
+  { label: "Comunidade", href: "/community" },
+  { label: "Criar Currículo", href: "/create-resume" },
+  { label: "Modelos", href: "/templates" },
 ];
 
 export const brands = [

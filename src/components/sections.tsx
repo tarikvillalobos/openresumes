@@ -32,10 +32,10 @@ export function HomeHero() {
           </p>
 
           <div className="hero-actions">
-            <Link className="btn-hero" href="/criar-curriculo">
+            <Link className="btn-hero" href="/create-resume">
               ✦ Criar meu currículo
             </Link>
-            <Link className="btn-ghost-hero" href="/modelos">
+            <Link className="btn-ghost-hero" href="/templates">
               <span className="play-btn" aria-hidden="true">
                 <svg width="10" height="12" viewBox="0 0 10 12">
                   <path d="M0 0v12l10-6L0 0Z" />
@@ -223,10 +223,10 @@ export function CtaSection() {
         Crie seu primeiro currículo gratuitamente. Sem cartão de crédito.
       </p>
       <div className="cta-actions">
-        <Link className="btn-cta" href="/criar-curriculo">
+        <Link className="btn-cta" href="/create-resume">
           ✦ Criar meu currículo grátis
         </Link>
-        <Link className="btn-cta-outline" href="/modelos">
+        <Link className="btn-cta-outline" href="/templates">
           Ver exemplos
         </Link>
       </div>
